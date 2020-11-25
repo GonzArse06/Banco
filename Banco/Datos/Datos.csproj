@@ -46,7 +46,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClienteMapper.cs" />
+    <Compile Include="CuentaMapper.cs" />
+    <Compile Include="GenericMapper.cs" />
     <Compile Include="TarjetaCreditoMapper.cs" />
+    <Compile Include="UtilidadesMapper.cs" />
     <Compile Include="webHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

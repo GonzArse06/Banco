@@ -53,6 +53,12 @@
     <Compile Include="FrmClienteABM.Designer.cs">
       <DependentUpon>FrmClienteABM.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmCuentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCuentas.Designer.cs">
+      <DependentUpon>FrmCuentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmInicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     <Compile Include="ValidacionesForm.cs" />
     <EmbeddedResource Include="FrmClienteABM.resx">
       <DependentUpon>FrmClienteABM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCuentas.resx">
+      <DependentUpon>FrmCuentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmInicio.resx">
       <DependentUpon>FrmInicio.cs</DependentUpon>
