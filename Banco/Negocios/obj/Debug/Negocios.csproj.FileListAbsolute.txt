@@ -1,0 +1,13 @@
+C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Negocios\bin\Debug\Negocios.dll
+C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Negocios\bin\Debug\Negocios.pdb
+C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Negocios\bin\Debug\Datos.dll
+C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Negocios\bin\Debug\Entidades.dll
+C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Negocios\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Negocios\bin\Debug\Datos.pdb
+C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Negocios\bin\Debug\Entidades.pdb
+C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Negocios\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Negocios\obj\Debug\Negocios.csprojAssemblyReference.cache
+C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
+C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Negocios\obj\Debug\Negocios.csproj.CopyComplete
+C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Negocios\obj\Debug\Negocios.dll
+C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Negocios\obj\Debug\Negocios.pdb
