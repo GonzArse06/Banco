@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.PictureInicio = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aBMClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -36,27 +35,23 @@
             this.tarjetasDeCreditoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aBMTarjetaDeCreditoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listarTarjetaDeCreditoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureInicio)).BeginInit();
+            this.cuentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aBMCuentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.PictureInicio = new System.Windows.Forms.PictureBox();
+            this.prestamosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.prestamosABMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureInicio)).BeginInit();
             this.SuspendLayout();
-            // 
-            // PictureInicio
-            // 
-            this.PictureInicio.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PictureInicio.Image = global::Formularios.Properties.Resources.star_wars_lightsabers_darth_vader_luke_skywalker_wallpaperswa_com_66;
-            this.PictureInicio.Location = new System.Drawing.Point(0, 28);
-            this.PictureInicio.Name = "PictureInicio";
-            this.PictureInicio.Size = new System.Drawing.Size(725, 358);
-            this.PictureInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PictureInicio.TabIndex = 0;
-            this.PictureInicio.TabStop = false;
             // 
             // menuStrip1
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.clientesToolStripMenuItem,
-            this.tarjetasDeCreditoToolStripMenuItem});
+            this.tarjetasDeCreditoToolStripMenuItem,
+            this.cuentasToolStripMenuItem,
+            this.prestamosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(725, 28);
@@ -108,6 +103,47 @@
             this.listarTarjetaDeCreditoToolStripMenuItem.Size = new System.Drawing.Size(247, 26);
             this.listarTarjetaDeCreditoToolStripMenuItem.Text = "Listar Tarjeta de credito";
             // 
+            // cuentasToolStripMenuItem
+            // 
+            this.cuentasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aBMCuentasToolStripMenuItem});
+            this.cuentasToolStripMenuItem.Name = "cuentasToolStripMenuItem";
+            this.cuentasToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
+            this.cuentasToolStripMenuItem.Text = "Cuentas";
+            // 
+            // aBMCuentasToolStripMenuItem
+            // 
+            this.aBMCuentasToolStripMenuItem.Name = "aBMCuentasToolStripMenuItem";
+            this.aBMCuentasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.aBMCuentasToolStripMenuItem.Text = "ABM Cuentas";
+            this.aBMCuentasToolStripMenuItem.Click += new System.EventHandler(this.aBMCuentasToolStripMenuItem_Click);
+            // 
+            // PictureInicio
+            // 
+            this.PictureInicio.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PictureInicio.Image = global::Formularios.Properties.Resources.star_wars_lightsabers_darth_vader_luke_skywalker_wallpaperswa_com_66;
+            this.PictureInicio.Location = new System.Drawing.Point(0, 28);
+            this.PictureInicio.Name = "PictureInicio";
+            this.PictureInicio.Size = new System.Drawing.Size(725, 358);
+            this.PictureInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureInicio.TabIndex = 0;
+            this.PictureInicio.TabStop = false;
+            // 
+            // prestamosToolStripMenuItem
+            // 
+            this.prestamosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.prestamosABMToolStripMenuItem});
+            this.prestamosToolStripMenuItem.Name = "prestamosToolStripMenuItem";
+            this.prestamosToolStripMenuItem.Size = new System.Drawing.Size(91, 24);
+            this.prestamosToolStripMenuItem.Text = "Prestamos";
+            // 
+            // prestamosABMToolStripMenuItem
+            // 
+            this.prestamosABMToolStripMenuItem.Name = "prestamosABMToolStripMenuItem";
+            this.prestamosABMToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.prestamosABMToolStripMenuItem.Text = "Prestamos ABM";
+            this.prestamosABMToolStripMenuItem.Click += new System.EventHandler(this.prestamosABMToolStripMenuItem_Click);
+            // 
             // FrmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -118,9 +154,9 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FrmInicio";
             this.Text = "Inicio";
-            ((System.ComponentModel.ISupportInitialize)(this.PictureInicio)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureInicio)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -136,6 +172,10 @@
         private System.Windows.Forms.ToolStripMenuItem tarjetasDeCreditoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aBMTarjetaDeCreditoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listarTarjetaDeCreditoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cuentasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aBMCuentasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem prestamosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem prestamosABMToolStripMenuItem;
     }
 }
 

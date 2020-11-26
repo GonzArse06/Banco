@@ -96,7 +96,6 @@ namespace Negocios
             if (_lstClientes.Any(x => x.Dni == cliente.Dni))
                 resultado += "El Cliente ya existe\n";
 
-
             return resultado;
         }
     }

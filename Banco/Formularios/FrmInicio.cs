@@ -34,5 +34,17 @@ namespace Formularios
             _formulario = new FrmTarjetaCredito();
             _formulario.Show();
         }
+
+        private void aBMCuentasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            _formulario = new FrmCuentas();
+            _formulario.Show();
+        }
+
+        private void prestamosABMToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            _formulario = new FrmPrestamos();
+            _formulario.Show();
+        }
     }
 }

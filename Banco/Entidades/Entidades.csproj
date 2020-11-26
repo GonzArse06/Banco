@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -44,12 +45,16 @@
     <Compile Include="Cliente.cs" />
     <Compile Include="CuentaException.cs" />
     <Compile Include="Cuenta.cs" />
+    <Compile Include="Operador.cs" />
+    <Compile Include="Prestamos.cs" />
     <Compile Include="TarjetaCreditoException.cs" />
     <Compile Include="ClienteException.cs" />
     <Compile Include="Enumerados.cs" />
     <Compile Include="TarjetaCredito.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PrestamosException.cs" />
     <Compile Include="TarjetaException.cs" />
+    <Compile Include="TipoPrestamos.cs" />
     <Compile Include="TransactionResult.cs" />
     <Compile Include="Utilidades.cs" />
   </ItemGroup>

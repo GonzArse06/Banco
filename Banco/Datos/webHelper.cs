@@ -25,7 +25,7 @@ namespace Datos
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
         }
         ///<summary></summary>
-        ///<param name="url">/api/v1/tarjetacredito</param>
+        ///<param name="url">/tarjetacredito/</param>
         ///<returns></returns>
         public static string Get(string url)
         {

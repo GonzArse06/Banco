@@ -19,3 +19,6 @@ C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Formularios\bin\Debug\Datos.pdb
 C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Formularios\bin\Debug\Newtonsoft.Json.xml
 C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Formularios\obj\Debug\Formularios.csproj.CopyComplete
 C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Formularios\obj\Debug\Formularios.FrmTarjetaCredito.resources
+C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Formularios\obj\Debug\Formularios.FrmCuentas.resources
+C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Formularios\obj\Debug\Formularios.FrmBuscarCliente.resources
+C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Formularios\obj\Debug\Formularios.FrmPrestamos.resources

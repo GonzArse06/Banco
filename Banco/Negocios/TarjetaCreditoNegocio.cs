@@ -90,6 +90,8 @@ namespace Negocios
                 resultado += "La tarjeta ya se encuentra registrada.\n";
             if (!ClienteMapper.TraerTodoClientes().Any(x => x.Id == tarjeta.IdCliente))
                 resultado += "El Cliente no existe.\n";
+            if(!CuentaMapper.TraerTodo().Any(x=>x.IdCliente == tarjeta.IdCliente))
+                resultado += "El Cliente no tiene cuenta.\n";
 
             return resultado;
         }
