@@ -37,9 +37,11 @@
             this.listarTarjetaDeCreditoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cuentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aBMCuentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.PictureInicio = new System.Windows.Forms.PictureBox();
             this.prestamosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.prestamosABMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.PictureInicio = new System.Windows.Forms.PictureBox();
+            this.plazoFijoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.plazoFijoABMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureInicio)).BeginInit();
             this.SuspendLayout();
@@ -51,7 +53,8 @@
             this.clientesToolStripMenuItem,
             this.tarjetasDeCreditoToolStripMenuItem,
             this.cuentasToolStripMenuItem,
-            this.prestamosToolStripMenuItem});
+            this.prestamosToolStripMenuItem,
+            this.plazoFijoToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(725, 28);
@@ -114,20 +117,9 @@
             // aBMCuentasToolStripMenuItem
             // 
             this.aBMCuentasToolStripMenuItem.Name = "aBMCuentasToolStripMenuItem";
-            this.aBMCuentasToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.aBMCuentasToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.aBMCuentasToolStripMenuItem.Text = "ABM Cuentas";
             this.aBMCuentasToolStripMenuItem.Click += new System.EventHandler(this.aBMCuentasToolStripMenuItem_Click);
-            // 
-            // PictureInicio
-            // 
-            this.PictureInicio.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PictureInicio.Image = global::Formularios.Properties.Resources.star_wars_lightsabers_darth_vader_luke_skywalker_wallpaperswa_com_66;
-            this.PictureInicio.Location = new System.Drawing.Point(0, 28);
-            this.PictureInicio.Name = "PictureInicio";
-            this.PictureInicio.Size = new System.Drawing.Size(725, 358);
-            this.PictureInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PictureInicio.TabIndex = 0;
-            this.PictureInicio.TabStop = false;
             // 
             // prestamosToolStripMenuItem
             // 
@@ -140,9 +132,35 @@
             // prestamosABMToolStripMenuItem
             // 
             this.prestamosABMToolStripMenuItem.Name = "prestamosABMToolStripMenuItem";
-            this.prestamosABMToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.prestamosABMToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
             this.prestamosABMToolStripMenuItem.Text = "Prestamos ABM";
             this.prestamosABMToolStripMenuItem.Click += new System.EventHandler(this.prestamosABMToolStripMenuItem_Click);
+            // 
+            // PictureInicio
+            // 
+            this.PictureInicio.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PictureInicio.Image = global::Formularios.Properties.Resources.star_wars_lightsabers_darth_vader_luke_skywalker_wallpaperswa_com_66;
+            this.PictureInicio.Location = new System.Drawing.Point(0, 28);
+            this.PictureInicio.Name = "PictureInicio";
+            this.PictureInicio.Size = new System.Drawing.Size(725, 358);
+            this.PictureInicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureInicio.TabIndex = 0;
+            this.PictureInicio.TabStop = false;
+            // 
+            // plazoFijoToolStripMenuItem
+            // 
+            this.plazoFijoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.plazoFijoABMToolStripMenuItem});
+            this.plazoFijoToolStripMenuItem.Name = "plazoFijoToolStripMenuItem";
+            this.plazoFijoToolStripMenuItem.Size = new System.Drawing.Size(87, 24);
+            this.plazoFijoToolStripMenuItem.Text = "Plazo Fijo";
+            // 
+            // plazoFijoABMToolStripMenuItem
+            // 
+            this.plazoFijoABMToolStripMenuItem.Name = "plazoFijoABMToolStripMenuItem";
+            this.plazoFijoABMToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.plazoFijoABMToolStripMenuItem.Text = "Plazo Fijo ABM";
+            this.plazoFijoABMToolStripMenuItem.Click += new System.EventHandler(this.plazoFijoABMToolStripMenuItem_Click);
             // 
             // FrmInicio
             // 
@@ -176,6 +194,8 @@
         private System.Windows.Forms.ToolStripMenuItem aBMCuentasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem prestamosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem prestamosABMToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem plazoFijoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem plazoFijoABMToolStripMenuItem;
     }
 }
 

@@ -31,8 +31,8 @@ namespace Datos
             a.Add("Linea", prestamos.TipoPrestamos.Linea);
             a.Add("Plazo", prestamos.Plazo.ToString());
             a.Add("IdCliente", prestamos.IdCliente.ToString());
-            a.Add("Monto", prestamos.Monto.ToString()); //habia un error con los decimales.
-            a.Add("Cuota", prestamos.Cuota.ToString());
+            a.Add("Monto", prestamos.Monto.ToString("#.##")); //habia un error con los decimales.
+            a.Add("Cuota", prestamos.Cuota.ToString("#.##"));
             a.Add("Usuario", ConfigurationManager.AppSettings["Legajo"]);
             return a;
         }

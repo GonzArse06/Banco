@@ -43,7 +43,7 @@ namespace Formularios
             _operador = new Operador(_lstPrestamos);
             if (_operador != null)
             {
-                textBox1.Text = _operador.Comision.ToString();
+                textBox1.Text = string.Format("{0:c}", _operador.Comision);//_operador.Comision.ToString();
             }
         }
 
@@ -84,9 +84,9 @@ namespace Formularios
                     if (_tipo != null)
                     {
                         Prestamos prestamos = new Prestamos(_tipo, int.Parse(txtPlazo.Text), double.Parse(txtMonto.Text),int.Parse(txtIdCliente.Text));
-                        txtCuotaCapital.Text = prestamos.CuotaCapital.ToString();
-                        txtCuotaInteres.Text = prestamos.CuotaInteres.ToString();
-                        txtCuotaTotal.Text = prestamos.Cuota.ToString();
+                        txtCuotaCapital.Text = prestamos.CuotaCapital.ToString("#.##");
+                        txtCuotaInteres.Text = prestamos.CuotaInteres.ToString("#.##");
+                        txtCuotaTotal.Text = prestamos.Cuota.ToString("#.##");
 
                         if (((ButtonBase)sender).Text == "ALTA")
                         {

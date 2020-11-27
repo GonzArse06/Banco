@@ -71,6 +71,12 @@
     <Compile Include="FrmInicio.Designer.cs">
       <DependentUpon>FrmInicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmPlazoFijo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPlazoFijo.Designer.cs">
+      <DependentUpon>FrmPlazoFijo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmPrestamos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmInicio.resx">
       <DependentUpon>FrmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPlazoFijo.resx">
+      <DependentUpon>FrmPlazoFijo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrestamos.resx">
       <DependentUpon>FrmPrestamos.cs</DependentUpon>

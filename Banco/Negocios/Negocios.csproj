@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="ClienteNegocios.cs" />
     <Compile Include="CuentaNegocio.cs" />
+    <Compile Include="PlazoFijoNegocios.cs" />
     <Compile Include="PrestamosNegocio.cs" />
     <Compile Include="ResultadoAPI.cs" />
     <Compile Include="TarjetaCreditoNegocio.cs" />

@@ -35,7 +35,7 @@ namespace Entidades
 
         public override string ToString()
         {
-            return string.Format("{0} - {1} - Monto:${2} - Plazo:${3} - Cuota:${4}",this._id,"",this._monto,this._plazo,this.Cuota);//this._tipoPrestamos.Linea,
+            return string.Format("{0} - {1} - Monto:${2} - Plazo:${3} - Cuota:${4}",this._id,"",this._monto,this._plazo,"");//this._tipoPrestamos.Linea,this.Cuota
         }
     }
 }

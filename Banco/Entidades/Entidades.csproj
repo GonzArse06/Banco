@@ -43,9 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cliente.cs" />
+    <Compile Include="PlazoFijoException.cs" />
     <Compile Include="CuentaException.cs" />
     <Compile Include="Cuenta.cs" />
     <Compile Include="Operador.cs" />
+    <Compile Include="PlazoFijo.cs" />
     <Compile Include="Prestamos.cs" />
     <Compile Include="TarjetaCreditoException.cs" />
     <Compile Include="ClienteException.cs" />

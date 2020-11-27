@@ -46,5 +46,11 @@ namespace Formularios
             _formulario = new FrmPrestamos();
             _formulario.Show();
         }
+
+        private void plazoFijoABMToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            _formulario = new FrmPlazoFijo();
+            _formulario.Show();
+        }         
     }
 }

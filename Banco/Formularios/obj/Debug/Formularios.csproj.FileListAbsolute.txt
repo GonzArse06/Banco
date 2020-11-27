@@ -22,3 +22,4 @@ C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Formularios\obj\Debug\Formulario
 C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Formularios\obj\Debug\Formularios.FrmCuentas.resources
 C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Formularios\obj\Debug\Formularios.FrmBuscarCliente.resources
 C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Formularios\obj\Debug\Formularios.FrmPrestamos.resources
+C:\Users\gcarranza\Documents\GitHub\Banco\Banco\Formularios\obj\Debug\Formularios.FrmPlazoFijo.resources
