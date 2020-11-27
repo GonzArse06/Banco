@@ -12,6 +12,21 @@ namespace Datos
 {
     public class ClienteMapper
     {
+        #region Uso de Generics
+        public static List<Cliente> TraerTodoClientesGeneric()
+        {
+            //GenericMapper<Cliente> generico = new GenericMapper<Cliente>();
+            //return generico.TraerTodo("/cliente/" + ConfigurationManager.AppSettings["Legajo"]);
+            return GenericMapper<Cliente>.TraerTodo("/cliente/" + ConfigurationManager.AppSettings["Legajo"]);
+        }
+        public static TransactionResult InsertGeneric(Cliente cliente)
+        {
+            NameValueCollection obj = ReverseFactory<Cliente>.ReverseMap(cliente);
+            string resultado = webHelper.Post("/cliente/", obj);
+            TransactionResult resultadoTransaction = webHelper.MapResultado(resultado);
+            return resultadoTransaction;
+        }
+        #endregion
         public static List<Cliente> TraerTodoClientes()
         {
             string json = webHelper.Get("/cliente/" + ConfigurationManager.AppSettings["Legajo"]);

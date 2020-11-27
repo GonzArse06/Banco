@@ -151,7 +151,7 @@ namespace Formularios
             }
             catch (Exception ex)
             {
-                throw new ClienteException("Cliente con datos basura.");
+                MessageBox.Show(ex.Message,"Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
         }
     }

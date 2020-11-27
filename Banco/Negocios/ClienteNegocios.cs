@@ -25,7 +25,7 @@ namespace Negocios
             }
             else
             { 
-                TransactionResult resultado = ClienteMapper.Insert(cliente);
+                TransactionResult resultado = ClienteMapper.InsertGeneric(cliente);
                 if (resultado.IsOk)
                 {
                     RecargarListCliente();
@@ -39,7 +39,7 @@ namespace Negocios
         }
         private void RecargarListCliente()
         {
-            _lstClientes = ClienteMapper.TraerTodoClientes();
+            _lstClientes = ClienteMapper.TraerTodoClientesGeneric();
         }
         public List<Cliente> TraerTodoClientes()
         {
